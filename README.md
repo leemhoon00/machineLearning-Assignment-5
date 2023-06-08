@@ -1,4 +1,4 @@
 ## 머신러닝 팀플 5
 
 ### Dependencies
-- pip install torch torchvision numpy opencv-python
+- pip install torch torchvision numpy opencv-python psutil ultralytics
