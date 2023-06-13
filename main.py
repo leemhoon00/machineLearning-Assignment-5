@@ -1,5 +1,9 @@
 import cv2
 import torch
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
+
 
 # 모델 가중치 파일 경로
 model_weights = 'my_model.pt'
